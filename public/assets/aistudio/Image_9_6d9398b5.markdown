@@ -1,0 +1,215 @@
+---
+name: Daymark
+colors:
+  surface: '#fdf8f5'
+  surface-dim: '#ded9d5'
+  surface-bright: '#fdf8f5'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f8f3ef'
+  surface-container: '#f2ede9'
+  surface-container-high: '#ece7e3'
+  surface-container-highest: '#e6e2de'
+  on-surface: '#1c1b19'
+  on-surface-variant: '#57423b'
+  inverse-surface: '#32302e'
+  inverse-on-surface: '#f5f0ec'
+  outline: '#8a726a'
+  outline-variant: '#dec0b7'
+  surface-tint: '#a23e18'
+  primary: '#9f3c16'
+  on-primary: '#ffffff'
+  primary-container: '#bf542c'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#ffb59c'
+  secondary: '#506353'
+  on-secondary: '#ffffff'
+  secondary-container: '#d2e8d4'
+  on-secondary-container: '#566959'
+  tertiary: '#006578'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#008097'
+  on-tertiary-container: '#f9fdff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbcf'
+  primary-fixed-dim: '#ffb59c'
+  on-primary-fixed: '#390c00'
+  on-primary-fixed-variant: '#822801'
+  secondary-fixed: '#d2e8d4'
+  secondary-fixed-dim: '#b7ccb8'
+  on-secondary-fixed: '#0d1f13'
+  on-secondary-fixed-variant: '#384b3c'
+  tertiary-fixed: '#adecff'
+  tertiary-fixed-dim: '#72d4ee'
+  on-tertiary-fixed: '#001f26'
+  on-tertiary-fixed-variant: '#004e5d'
+  background: '#fdf8f5'
+  on-background: '#1c1b19'
+  surface-variant: '#e6e2de'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 52px
+    fontWeight: '600'
+    lineHeight: 60px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '500'
+    lineHeight: 44px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 26px
+    fontWeight: '500'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.005em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.03em
+  caption:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2.5rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system draws inspiration from bespoke physical print publications, archival bookmaking, and high-craft stationery. It rejects generic SaaS trends—hyper-saturated gradient blobs, generic floating pill tabs, and synthetic elevation tricks—in favor of quiet luxury, deliberate density, and warm paper textures.
+
+The UI evokes the tactile discipline of an architect's desk or an author's bespoke planner. Designed for focused, high-clarity knowledge workers, thinkers, and craft-driven creators, every view balances spacious asymmetry with uncompromising typographic rhythm. The feeling is grounded, calm, and intellectually rigorous: a physical broadsheet brought into a serene digital studio.
+
+## Colors
+
+The palette simulates natural pigment on uncoated vellum paper. 
+
+- **Canvas & Surface Base:** Warm editorial parchment (`#FAF8F5`) acts as the outer application background, with pure stationery paper (`#F8F6F0`) anchoring foreground work surfaces, sidebars, and contextual sheets.
+- **Ink & Typography:** Deep carbon charcoal (`#181715`) ensures stark legibility without the harshness of pitch black. Secondary editorial commentary, timestamps, and metadata rest in an archival graphite tone (`#5E5A54`), while micro-captions and disabled elements use a faded pencil wash (`#9C968B`).
+- **Hairlines & Boundaries:** Structural borders utilize warm bone hairline tones (`#E5E1D8` and `#E8E4DA`), preserving architectural definition without visual clutter.
+- **Momentum Accent (Primary):** Burnt vermilion terracotta (`#C85A32`) serves strictly as a directional focal point: marking active tasks, primary commits, urgent deadlines, and the active cursor. It is used with discipline—never more than two primary accent hits per viewport.
+- **Balance Accent (Secondary):** Artisan dried sage (`#6B7F6E`) introduces quiet completion states, calm tags, project categories, and sustained rhythm markers.
+
+## Typography
+
+The typographical engine operates on a deliberate dualism: the literary soul of classic typesetting meets the utilitarian clarity of mid-century Swiss functionalism.
+
+- **Editorial Serifs (Playfair Display):** Reserved exclusively for high-impact human moments—the morning greeting, daily focal intentions, manifesto headers, date milestones, and major section partitions. It brings the emotional texture of an artisanal newsletter or broadsheet headline.
+- **Engineered Sans (Plus Jakarta Sans):** Employs balanced geometry and generous counter-spaces to handle interactive choreographies: task titles, time tracking, deep contextual metadata, table layouts, and input forms.
+- **Editorial Micro-Typographic Rules:** Uppercase styling is permitted strictly on `caption` and `label-sm` tiers with expanded letter spacing (+0.04em to +0.06em) to emulate stamped archival references or volume dates. Italicized serifs (`Playfair Display Italic`) are favored for reflective meta-prompts, personal notes, and contextual summaries.
+
+## Layout & Spacing
+
+Layout in this design system mimics the broadsheet grid of a physical literary folio rather than fluid software components packed arbitrarily into boxes.
+
+- **Grid Architecture:** Desktop views establish an asymmetric 12-column foundation anchored by a dedicated 3-column reference rail (date indexes, agenda anchors, ambient timers) alongside an expansive 9-column work studio. Tablet collapses to an 8-column layout with collapsable reference panes; mobile uses an uninterrupted 4-column column flow.
+- **Spatial Cadence:** Vertical breathing room precedes density. Primary workspace headers and day transitions receive generous vertical gaps (`space-2xl`), while actual task execution lists utilize tighter, tactile horizontal bands separated by hairlines (`space-sm` to `space-md`).
+- **Margins & Safe Canvases:** The outer application frame holds a structured margin (`margin`) echoing book margins. The content canvas never snaps directly to viewport edges, ensuring the central workspace feels like an open folio floating within an intimate reading desk.
+
+## Elevation & Depth
+
+This design system avoids blurry drop shadows, heavy colored glows, and plastic z-axis elevation models. Depth is established solely through paper stacking, subtle tonal tinting, and architectural hairline divisions.
+
+- **Hairline Construction:** Spatial containers, workspaces, and drawer panels exist on identical visual axes, delineated by 1px solid ink hairlines (`#E5E1D8`).
+- **The Stacking Principle:** Higher-order context (such as quick-capture command palettes, detail sheets, and inspector drawers) relies on subtle paper tint contrasts (`#FAF8F5` against `#F8F6F0`) reinforced by an ultra-crisp tactile hairline edge and, at most, an imperceptible warm amber ambient contact shadow (`rgba(24, 23, 21, 0.04) 0px 4px 20px`).
+- **Layering Over Blur:** Glassmorphic translucency is rejected. Overlays and modal flyouts are opaque, crisp paper layers that maintain complete focus and high typographic contrast.
+
+## Shapes
+
+The geometry reflects crisp, cut bookbinding board and trimmed deckle-edge paper. 
+
+- **Base Radii:** Default containers, card blocks, and form fields use a subtle, precise radius (`0.25rem` / `rounded-sm` to `rounded`), retaining the grounded crispness of archival cards. 
+- **No Pill Overload:** Rounded pill shapes are prohibited on interactive buttons, input bars, and container modules. The design avoids softened software tropes in order to sustain an authentic, serious editorial instrument aesthetic. Circular forms are reserved solely for uncompleted task check-indicators and avatar stamps.
+
+## Components
+
+### Buttons & Interactive Triggers
+- **Primary Action:** Solid deep carbon charcoal background (`#181715`) with paper white typography (`#FAF8F5`), 1px subtle border, and sharp corners (`rounded-sm`). On hover, transitions cleanly to burnt vermilion (`#C85A32`).
+- **Secondary Action:** Uncoated paper surface (`#F8F6F0`) with carbon charcoal text and crisp hairline border (`#E5E1D8`). Hover activates subtle parchment wash (`#EFECE4`).
+- **Ghost/Tertiary:** Flat typographic triggers lacking borders, styled with `label-md` in charcoal with a discreet hairline bottom border accent that underscores on focus.
+
+### Inputs & Text Areas
+- Built with crisp single-line hairlines (`#E5E1D8`) surrounding a quiet background (`#FAF8F5`). 
+- Focus state eschews generic outer glow rings: it transitions the border to a 1.5px solid burnt vermilion hairline (`#C85A32`) with an active solid square cursor indicator.
+- Placeholder text is set in archival muted graphite (`#9C968B`) with `body-md` sizing.
+
+### Task Row & Checklist Items
+- Styled like printed agenda ledger rows: 1px hairline horizontal divider running between items.
+- **Check-Indicators:** Unchecked state is a precise 18px geometric wireframe circle bounded by a 1.5px hairline (`#5E5A54`). Upon completion, the circle fills with muted artisan sage (`#6B7F6E`) and checks with an internal off-white tick; the corresponding label subtly fades to graphite (`#9C968B`) with a fine strike-through line.
+- Priority markers appear as an understated left hairline notch in burnt vermilion (`#C85A32`).
+
+### Chips & Meta Indicators
+- Structured with compact padding (`space-xs` vertical, `space-sm` horizontal), flat paper background (`#F3EFE6`), crisp perimeter hairline (`#E5E1D8`), and `label-sm` uppercase type.
+- Category designations employ subtle contextual tinted inks (e.g., artisan sage `#6B7F6E` for personal reviews, terracotta `#C85A32` for sprint deliverables).
+
+### Studio Cards & Editorial Folios
+- Distinct, unpadded perimeter hairlines (`1px solid #E8E4DA`). 
+- Headers feature serif display titles (`headline-sm`) accompanied by an understated right-aligned publication folio index (`#9C968B`). 
+- Interior card padding follows an unhurried, comfortable rhythm (`space-lg`), giving content the breathing room of an open monograph.

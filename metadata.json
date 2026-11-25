@@ -1,0 +1,6 @@
+{
+  "name": "Daymark",
+  "description": "An editorial daily planner, task ledger, and focus studio crafted with archival stationery discipline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
